@@ -3,12 +3,18 @@
 课程详情页测试用例
 '''
 
-from onlineedulib.course_detail import Course_Detail        # 导入封装的方法库
-from settings import URL, MAX_LEVEL                         # 导入settings中传进来的url和遍历层级
+import sys
+import os
+curPath = os.path.abspath(os.path.dirname(__file__))
+rootPath = os.path.split(curPath)[0]
+sys.path.append(rootPath)
 
 from selenium import webdriver                              # 导入selenium的浏览器驱动库
 from webdriver_manager.chrome import ChromeDriverManager    # 导入chrome浏览器驱动管理库
-import random, time
+import time
+
+from onlineedulib.course_detail import Course_Detail        # 导入封装的方法库
+from settings import URL, MAX_LEVEL                         # 导入settings中传进来的url和遍历层级
 
 
 class Course_Detail_Test():
