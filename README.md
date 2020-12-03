@@ -4,9 +4,11 @@ onlineedulib                    -项目库文件夹
     course_detail_element.py    -元素封装文件
     pool.py                     -进程池实现文件
 onlineedutest                   -项目测试用例文件夹
-    course_detail.py            -页面测试用例
+    course_detail.py            -页面测试用例（for window system）
+    course_detail_linux.py      -页面测试用例（for Linux system）
 settings.py                     -配置文件
-README.md                       -说明文件
+requirements.txt                -库文件配置
+README.md                       -操作说明文件
 
 2.安装python依赖：
 pip install -r requirements.txt
