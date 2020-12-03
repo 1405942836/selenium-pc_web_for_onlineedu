@@ -24,3 +24,4 @@ pip install -r requirements.txt
 
 备注：
 有任何问题欢迎联系我QQ/微信：1405942836，欢迎一起探讨
+觉得不错的欢迎star。
